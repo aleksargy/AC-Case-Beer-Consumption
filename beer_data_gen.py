@@ -83,7 +83,6 @@ events_df = pd.DataFrame(
     columns=["event_id", "event_date", "event_type", "average_beer_consumed"],
 )
 
-# Save the datasets to CSV files
 students_df.to_csv("data/students.csv", index=False)
 beer_consumption_df.to_csv("data/beer_consumption.csv", index=False)
 well_being_df.to_csv("data/well_being.csv", index=False)
